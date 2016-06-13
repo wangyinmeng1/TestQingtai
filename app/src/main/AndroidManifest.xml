@@ -23,7 +23,13 @@
                 <category android:name="com.example.findpasswordui.MY_CATEGORY"/>
             </intent-filter>
         </activity>
-
+        <activity android:name=".Open">
+            <intent-filter>
+                <action android:name="com.example.findpasswordui.ACTION_START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.example.findpasswordui.MY_CATEGORY"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".VerifyCodeActivity">
             <intent-filter>
                 <action android:name="com.example.findpasswordui.ACTION_START"/>
